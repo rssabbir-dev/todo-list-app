@@ -1,0 +1,53 @@
+body{
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(to right, rgb(109, 228, 228),rgb(102, 102, 241));
+}
+.todo-container{
+  width: 400px;
+  padding:30px;
+  height: 500px;
+  position: relative;
+}
+#add-list-text{
+  width: 280px;
+  height: 35px;
+  outline: none;
+}
+.todo-list-header{
+  display: flex;
+  justify-content: space-between;
+}
+.card-footer{
+  position:absolute;
+  bottom: 30px;
+  border:none;
+}
+.card-footer p{
+  display: inline;
+  margin-right: 50px;
+}
+li{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 10px;
+  background: rgb(241, 241, 241);
+  font-size: 1.1rem;
+  margin:5px 0px;
+  height: 40px;
+  
+}
+li button{
+  border:none;
+  height: 40px;
+  color:white;
+  background: rgb(236, 78, 66);
+  display: none;
+  cursor: pointer;
+}
+li:hover button{
+  display: block;
+}

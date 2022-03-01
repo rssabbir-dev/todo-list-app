@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Todo List App</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+  <script src="main.js" defer></script>
+</head>
+<body>
+  <div class="todo-container bg-white">
+    <h1>Todo List App</h1>
+    <div class="todo-list-header">
+      <input type="text" class="p-1" name="" id="add-list-text" placeholder="Add New List">
+    <button id="add-list-btn" class="btn btn-primary">+</button>
+    </div>
+      <ul id="todo-list-container">
+      </ul>
+    <div class="todo-list-footer card-footer bg-white">
+      <p>You have <span id="todo-list-counter">0</span> pending tasks</p>
+      <button id="clear-all-btn" class="btn btn-primary">Clear All</button>
+    </div>
+  </div>
+</body>
+</html>
